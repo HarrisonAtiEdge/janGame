@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game 1</title>
+  <!-- Add any other necessary styles or scripts for your game -->
+</head>
+<body>
+  <h1>Welcome to Game 1</h1>
+
+  <script>
+    // Retrieve the username from localStorage
+    var username = localStorage.getItem('username');
+
+    if (username) {
+      // Display the username or use it as needed in your game logic
+      console.log('Username:', username);
+      // You can also update the DOM to show the username if necessary
+      document.body.innerHTML += '<p>Welcome, ' + username + '!</p>';
+    } else {
+      // Redirect to the login page if the username is not found in localStorage
+      document.body.innerHTML += '<p> no user found in localstorage</p>';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, #e95ea9 , #d47cab); */
+/* background-color: #F7D8D5; */
+/* background: rgb(206,30,14);
+background: linear-gradient(137deg, rgba(206,30,14,1) 17%, rgba(223,173,61,1) 61%, rgba(250,243,101,1) 100%); */
+background-image: url(../img/Calpol_Bg.webp);
+}
+
+
+#main2{
+    width: 100%;
+    height: 100vh;
+    
+background-image: url(../img/caplpoltheme2.jpg);
+object-fit: cover;
+}
+#main3{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, #e95ea9 , #d47cab); */
+/* background-color: #F7D8D5; */
+/* background: rgb(206,30,14);
+background: linear-gradient(137deg, rgba(206,30,14,1) 17%, rgba(223,173,61,1) 61%, rgba(250,243,101,1) 100%); */
+background-image: url(../img/caplpoltheme3.jpg);
+}
+#nav{
+    margin: 0 auto;
+    width: 100%;
+    height: 6vw;
+    /* background-color:rgb(255, 199, 199); */
+
+}
+.calpolalign{
+    padding: 2vw;
+width: 8vw;
+/* right: 2vw; */
+margin-left: auto;
+display: block;
+
+}
+
+#nav #urlCon{
+    display: flex;
+    justify-content: center;
+    /* margin: -3vw; */
+    margin-top: -3rem;
+padding: 2vw 0;
+/* background-color: #f6938a; */
+}
+.url{
+    display: flex;
+    justify-content: space-between;
+    padding: .7vw;
+    width: 22vw;
+    border-radius: 4.2vw;
+    /* border-radius: 50px; */
+background: #7E1C19;
+box-shadow:  .3vw .3vw .3vw #665656,
+-.3vw -.3vw 2vw #ffffff;
+
+}
+.url svg {
+    padding: 1vw  0  0 1vw;
+}
+.link{
+    background-color: rgb(79 10 0);
+    padding: 2vw 2vw 2vw 1.5vw;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 2vw;
+    border-radius: 0 4.2vw 4.2vw  0;
+}
+#games-con{
+    /* background-color: #382723; */
+    width: 60vw;
+    margin: auto;
+    margin-top:7vw ;
+    padding: 6vw;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.gamediv img{
+width: 12vw;
+}
+.gamediv button{
+    width: 9vw;
+    background: linear-gradient(145deg,  #d31e03, #7f100c);
+    box-shadow: 
+                 0.1vw 0.1vw 0.1vw #665656, -0.1vw -0.1vw 1vw #ffffff;
+    padding: 1vw;
+    border-radius: 2vw;
+    color: white;
+    font-weight: 80;
+    font-size: 1.2vw;
+    cursor: pointer;
+    margin-left: 1.5vw;
+    text-align: center;
+    border: none;
+}
+
+
+
+
+
+
+
+.forBtn{
+cursor: pointer;
+}
+.gamediv button:hover{
+    background:  rgb(128, 15, 11);
+}
+/* ******************************************** */
+.rulesbg{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #F7D8D5; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rulesbg img{
+    width: 14vw;
+    margin: 2vw;
+}
+.rulesDiv{
+    margin-top: 4vw;
+    padding:  3vw;
+    border-radius: 2vw;
+background: rgb(252,66,36);
+background: linear-gradient(137deg, rgba(252,66,36,1) 17%, rgba(98,10,8,1) 100%);
+    box-shadow:  .3vw .3vw .3vw #665656,
+                 -.3vw -.3vw 2vw #ffffff;
+            }
+.rulesDiv h1{
+   
+    color: white;
+    font-weight: 80;
+    font-size: 2.5vw;
+    padding: .5rem;
+
+}
+.rulesDiv p{
+    font-weight: 80;
+    font-size: 1.7vw;
+    padding: .5vw;
+    color: white;
+}
+
+#userList{
+    color: white;
+}
+
+#rulesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#rulesContainer img{
+    width: 18vw;
+}
+
+/* ***************wordsToSearch👇****************** */
+.wordsToSearch{
+  
+    padding:  2.5vw;
+    border-radius: 2vw;
+background: rgb(252,66,36);
+background: linear-gradient(137deg, rgba(252,66,36,1) 17%, rgba(98,10,8,1) 100%);
+display: flex;
+flex-direction: column;
+align-items: center;
+            }
+.wordsToSearch h1{
+   
+    color: white;
+    font-weight: 80;
+    font-size: 2.5vw;
+    padding: .5rem;
+
+}
+.wordsToSearch p{
+    font-weight: 80;
+    font-size: 1.7vw;
+    padding: .5vw;
+    color: white;
+}
+/* ***************wordsToSearch👆****************** */
+
+.rulesbtn{
+    position: absolute;
+    padding-top: 35vw;
+    /* right: 8vw; */
+}
+.newrulesbtn{
+    position: absolute;
+    bottom: 5vw;
+    right: 2vw;
+}
+.startbtn{
+    padding: 20px 30px;
+    background-color:  #d2250f;
+    border: none;
+    border-radius: 18px;
+    font-weight: 300;
+    font-size: 1vw;
+    cursor: pointer;
+    color: white;
+}
+.startbtn:hover{
+      background-color:  rgb(107, 0, 0);
+}
+.logoalign{
+    position: relative;
+    width: 150px;
+    float:right;
+    margin-top:16px;
+    cursor: pointer;
+}
+.firstcontainer{
+    padding:  5vw;
+    border-radius: 41px;
+    width: 1000px;
+    border-radius: 50px;
+    background: transparent;
+    /* box-shadow:  20px 20px 60px #d2b8b5,
+                 -20px -20px 60px #fff8f5; */
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+}
+.firstcontainer img{
+
+width: 35vw;   
+box-shadow:  .3vw .3vw .3vw #665656,
+-.3vw -.3vw 2vw #ffffff;
+}
+.containeralign{
+  padding: 1.3rem 20rem;
+   
+}
+.backgroundwaiting{
+    background-image: url(../img/Calpol_Bg.webp);
+}   
+
+.glassalign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.glassalign p{
+    color: white;
+  font-size: larger;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center h2{
+    margin:8vw 1vw 0vw 1vw;
+    color: white;
+
+}
